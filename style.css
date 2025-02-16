@@ -29,8 +29,8 @@ h1 {
     width: 70%;
     margin: 20px auto;
     transition: color 0.3s ease, transform 0.3s ease;
-    background-color: rgba(255, 255, 255, 0.8); /* Added background for contrast */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 h1:hover {
@@ -73,29 +73,29 @@ p {
     background-color: #F7F9F7;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Changed to outer shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
     width: 90%;
-    max-width: 800px; /* Added max-width for better readability */
+    max-width: 800px; 
     margin: 20px auto;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 p:hover {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
     transform: scale(1.02);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     h1 {
-        font-size: 1.8em; /* Adjust font size for smaller screens */
+        font-size: 1.8em; 
     }
 
     h2, h3 {
-        font-size: 1.3em; /* Adjust font size for smaller screens */
+        font-size: 1.3em; 
     }
 
     p {
-        padding: 20px; /* Reduce padding for smaller screens */
+        padding: 20px; 
     }
 }
